@@ -1663,7 +1663,6 @@ ios_application(
         "//third-party/webrtc:webrtc_objc",
     ],
 )
-
 ios_application(
     name = "libvpx_build_test",
     bundle_id = "{telegram_bundle_id}".format(
